@@ -1,0 +1,34 @@
+root: true
+parser: babel-eslint
+env:
+ node: true
+extends:
+ - eslint:recommended
+rules:
+ no-console:
+  - off
+ comma-dangle:
+  - error
+  -
+    arrays: always-multiline
+    exports: always-multiline
+    functions: always-multiline
+    imports: always-multiline
+    objects: always-multiline
+ indent:
+  - error
+  - tab
+  -
+    SwitchCase: 1
+ new-parens:
+  - error
+ no-mixed-spaces-and-tabs:
+  - error
+ no-unused-vars:
+  - error
+ quotes:
+  - error
+  - single
+ semi:
+  - error
+  - never
