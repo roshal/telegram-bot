@@ -6,7 +6,7 @@ git commit --allow-empty --allow-empty-message -m '' --amend
 git push heroku master
 git push origin master
 #
-heroku config:add name=value
+heroku config:add key=value
 heroku local
 heroku local worker
 heroku logs
